@@ -1,0 +1,253 @@
+/* RGB */
+$color1: rgba(219, 244, 173, 1);
+$color2: rgba(169, 225, 144, 1);
+$color3: rgba(205, 199, 118, 1);
+$color4: rgba(165, 170, 82, 1);
+$color5: rgba(118, 117, 34, 1);
+$dark-overlay: rgba(0,0,0,0.7);
+
+
+body {
+  background-color: $color1;
+  color: $color5;
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  hr {
+    border-color: $color3;
+  }
+  .card-outline-secondary {
+    border-color: $color3;
+  }
+
+  .btn-outline-secondary {
+    border-color: $color4;
+    color: $color5;
+  }
+
+  .btn-outline-secondary:hover {
+    background-color: $color2;
+  }
+}
+
+.dark-overlay {
+  background-color: $dark-overlay;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  background: $color1;
+
+  a {
+    color: $color5;
+    text-decoration: none;
+  }
+
+  .fa-reorder {
+    color: $color5;
+  }
+}
+
+
+#home-splash {
+  position: relative;
+  background: url(../img/climate3_2.jpeg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px;
+  color: $color3;
+
+  #email {
+    color: $color2;
+    font-size: 1.2em;
+  }
+
+  a.btn {
+    border-color: $color3;
+  }
+
+  .fa {
+    font-size: 34px;
+  }
+
+  p:nth-of-type(2) {
+    margin-left: -8px;
+  }
+
+  #gloc {
+    font-size: 34px;
+  }
+}
+
+#mission-head {
+
+}
+
+#mission-section {
+  background-color: $color3;
+  color: $color5;
+}
+
+#congress-head {
+  background-color: $color5;
+  color: $color3;
+}
+
+#congress-section {
+  // position: relative;
+  // height: 700px;
+  background: url(../img/police2_2.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: $color2;
+
+
+  .subicon i {
+    font-size: 24px !important;
+  }
+
+  .fa {
+    font-size: 30px;
+    padding-right: 10px;
+  }
+}
+
+#about-head {
+  background-color: $color2;
+}
+
+#about-section {
+  background-color: $color5;
+  color: $color3;
+
+  .display-4 {
+    font-size: 36px;
+  }
+}
+
+footer {
+  color: $color5;
+  a {
+    color: $color5;
+  }
+  a.btn {
+    white-space: normal !important;
+    max-width: 280px;
+  }
+
+  .card-outline-secondary {
+    border-color: $color4;
+  }
+}
+
+
+@media (min-width: 310px) {
+  #home-splash {
+    height: 1730px;
+  }
+
+  #congress-section {
+    height: 2800px;
+  }
+}
+
+
+@media (min-width: 350px) {
+  #home-splash {
+    height: 1580px;
+  }
+
+  #congress-section {
+    height: 2670px;
+  }
+}
+
+
+@media (min-width: 386px) {
+  #home-splash {
+    height: 1520px;
+  }
+
+  #congress-section {
+    height: 2580px;
+  }
+}
+
+@media (min-width: 450px) {
+  #home-splash {
+    height: 1460px;
+  }
+
+  #congress-section {
+    height: 2580px;
+  }
+}
+
+@media (min-width: 512px) {
+  #home-splash {
+    height: 1390px;
+  }
+
+  #congress-section {
+    height: 2520px;
+  }
+}
+
+@media (min-width: 558px) {
+  #home-splash {
+    height: 1310px;
+  }
+
+  #congress-section {
+    height: 2520px;
+  }
+}
+
+@media (min-width: 708px) {
+  #home-splash {
+    height: 1250px;
+  }
+
+  #congress-section {
+    height: 2520px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  #home-splash {
+    height: 970px;
+  }
+
+  #congress-section {
+    height: 1590px;
+  }
+}
+
+@media (min-width: 992px) {
+  #home-splash {
+    height: 890px;
+  }
+
+  #congress-section {
+    height: 1540px;
+  }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}

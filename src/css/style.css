@@ -1,0 +1,148 @@
+/* RGB */
+body {
+  background-color: #dbf4ad;
+  color: #767522; }
+  body a:hover {
+    text-decoration: none; }
+  body hr {
+    border-color: #cdc776; }
+  body .card-outline-secondary {
+    border-color: #cdc776; }
+  body .btn-outline-secondary {
+    border-color: #a5aa52;
+    color: #767522; }
+  body .btn-outline-secondary:hover {
+    background-color: #a9e190; }
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%; }
+
+.navbar {
+  background: #dbf4ad; }
+  .navbar a {
+    color: #767522;
+    text-decoration: none; }
+  .navbar .fa-reorder {
+    color: #767522; }
+
+#home-splash {
+  position: relative;
+  background: url(../img/climate3_2.jpeg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px;
+  color: #cdc776; }
+  #home-splash #email {
+    color: #a9e190;
+    font-size: 1.2em; }
+  #home-splash a.btn {
+    border-color: #cdc776; }
+  #home-splash .fa {
+    font-size: 34px; }
+  #home-splash p:nth-of-type(2) {
+    margin-left: -8px; }
+  #home-splash #gloc {
+    font-size: 34px; }
+
+#mission-section {
+  background-color: #cdc776;
+  color: #767522; }
+
+#congress-head {
+  background-color: #767522;
+  color: #cdc776; }
+
+#congress-section {
+  background: url(../img/police2_2.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #a9e190; }
+  #congress-section .subicon i {
+    font-size: 24px !important; }
+  #congress-section .fa {
+    font-size: 30px;
+    padding-right: 10px; }
+
+#about-head {
+  background-color: #a9e190; }
+
+#about-section {
+  background-color: #767522;
+  color: #cdc776; }
+  #about-section .display-4 {
+    font-size: 36px; }
+
+footer {
+  color: #767522; }
+  footer a {
+    color: #767522; }
+  footer a.btn {
+    white-space: normal !important;
+    max-width: 280px; }
+  footer .card-outline-secondary {
+    border-color: #a5aa52; }
+
+@media (min-width: 310px) {
+  #home-splash {
+    height: 1730px; }
+  #congress-section {
+    height: 2800px; } }
+
+@media (min-width: 350px) {
+  #home-splash {
+    height: 1580px; }
+  #congress-section {
+    height: 2670px; } }
+
+@media (min-width: 386px) {
+  #home-splash {
+    height: 1520px; }
+  #congress-section {
+    height: 2580px; } }
+
+@media (min-width: 450px) {
+  #home-splash {
+    height: 1460px; }
+  #congress-section {
+    height: 2580px; } }
+
+@media (min-width: 512px) {
+  #home-splash {
+    height: 1390px; }
+  #congress-section {
+    height: 2520px; } }
+
+@media (min-width: 558px) {
+  #home-splash {
+    height: 1310px; }
+  #congress-section {
+    height: 2520px; } }
+
+@media (min-width: 708px) {
+  #home-splash {
+    height: 1250px; }
+  #congress-section {
+    height: 2520px; } }
+
+@media (min-width: 768px) {
+  #home-splash {
+    height: 970px; }
+  #congress-section {
+    height: 1590px; } }
+
+@media (min-width: 992px) {
+  #home-splash {
+    height: 890px; }
+  #congress-section {
+    height: 1540px; } }
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%; } }
