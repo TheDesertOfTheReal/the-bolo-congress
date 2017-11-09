@@ -91,7 +91,19 @@ footer {
 
 @media (min-width: 310px) {
   #home-splash {
-    height: 1730px; }
+    height: 1750px; }
+  #congress-section {
+    height: 2800px; } }
+
+@media (min-width: 326px) {
+  #home-splash {
+    height: 1680px; }
+  #congress-section {
+    height: 2800px; } }
+
+@media (min-width: 348px) {
+  #home-splash {
+    height: 1600px; }
   #congress-section {
     height: 2800px; } }
 
@@ -109,7 +121,7 @@ footer {
 
 @media (min-width: 450px) {
   #home-splash {
-    height: 1460px; }
+    height: 1480px; }
   #congress-section {
     height: 2580px; } }
 
