@@ -214,6 +214,8 @@ footer {
   and (-webkit-min-device-pixel-ratio: 3) {
 
   #congress-section, #home-splash {
+    height: 100%;
+    width: 100%;
     background-attachment: scroll;
   }
 }
