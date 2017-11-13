@@ -1,32 +1,34 @@
 /* RGB */
 body {
-  background-color: #dbf4ad;
-  color: #767522; }
+  background-color: #040403;
+  color: #9ddbad; }
   body a:hover {
     text-decoration: none; }
   body hr {
-    border-color: #cdc776; }
+    border-color: #8eb897; }
   body .card-outline-secondary {
-    border-color: #cdc776; }
+    border-color: #8eb897; }
   body .btn-outline-secondary {
-    border-color: #a5aa52;
-    color: #767522; }
+    border-color: #c3e8bd;
+    color: #9ddbad; }
   body .btn-outline-secondary:hover {
-    background-color: #a9e190; }
+    background-color: #5b7553; }
 
 .dark-overlay {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   position: absolute;
   height: 100%;
   width: 100%; }
 
 .navbar {
-  background: #dbf4ad; }
+  background: #040403; }
   .navbar a {
-    color: #767522;
+    color: #9ddbad;
     text-decoration: none; }
+  .navbar a:hover {
+    color: #5b7553; }
   .navbar .fa-reorder {
-    color: #767522; }
+    color: #9ddbad; }
 
 #home-splash {
   position: relative;
@@ -36,12 +38,15 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 700px;
-  color: #cdc776; }
+  color: #8eb897; }
   #home-splash #email {
-    color: #a9e190;
+    color: #c3e8bd;
     font-size: 1.2em; }
   #home-splash a.btn {
-    border-color: #cdc776; }
+    border-color: #c3e8bd; }
+  #home-splash a.btn:hover {
+    background-color: #9ddbad;
+    color: #040403; }
   #home-splash .fa {
     font-size: 34px; }
   #home-splash p:nth-of-type(2) {
@@ -49,13 +54,13 @@ body {
   #home-splash #gloc {
     font-size: 34px; }
 
-#mission-section {
-  background-color: #cdc776;
-  color: #767522; }
+#mission-section, #description {
+  background-color: #5b7553;
+  color: #9ddbad; }
 
 #congress-head {
-  background-color: #767522;
-  color: #cdc776; }
+  background-color: #9ddbad;
+  color: #040403; }
 
 #congress-section {
   background: url(../img/police2_2.jpg);
@@ -63,7 +68,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: #cdc776; }
+  color: #8eb897; }
   #congress-section .subicon i {
     font-size: 24px !important; }
   #congress-section .fa {
@@ -71,23 +76,52 @@ body {
     padding-right: 10px; }
 
 #about-head {
-  background-color: #a9e190; }
+  background-color: #5b7553; }
 
 #about-section {
-  background-color: #767522;
-  color: #cdc776; }
+  background-color: #040403;
+  color: #8eb897; }
   #about-section .display-4 {
     font-size: 36px; }
 
 footer {
-  color: #767522; }
+  color: #9ddbad; }
   footer a {
-    color: #767522; }
+    color: #9ddbad; }
   footer a.btn {
     white-space: normal !important;
     max-width: 280px; }
   footer .card-outline-secondary {
-    border-color: #a5aa52; }
+    border-color: #c3e8bd; }
+
+/* ----------- iPhone 4 and 4S ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  #congress-section, #home-splash {
+    background-attahment: scroll; } }
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  #congress-section, #home-splash {
+    background-attahment: scroll; } }
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  #congress-section, #home-splash {
+    background-attahment: scroll; } }
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  #congress-section, #home-splash {
+    background-attahment: scroll; } }
+
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  #congress-section, #home-splash {
+    background-attahment: scroll; } }
 
 @media (min-width: 310px) {
   #home-splash {
