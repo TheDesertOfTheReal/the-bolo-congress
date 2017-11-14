@@ -116,9 +116,9 @@ body {
   // position: relative;
   // height: 700px;
   background: url(../img/police2_2.jpg);
-  // background-position: bottom;
-  // background-size: cover;
-  // background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: scroll;
   color: $color3;
 
@@ -233,6 +233,12 @@ footer {
 //     background-attachment: scroll;
 //   }
 // }
+
+@media (max-width: 767px) {
+  #congress-section, #home-splash {
+    background-attachment: initial;
+  }
+}
 
 
 /////////////
