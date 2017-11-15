@@ -34,8 +34,8 @@ body {
   position: relative;
   background: url(../img/climate3_2.jpeg);
   background-position: bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: repeat-y;
   background-attachment: fixed;
   height: 700px;
   color: #8eb897; }
