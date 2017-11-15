@@ -36,8 +36,7 @@ body {
 }
 
 .dark-overlay {
-  // background-color: $dark-overlay;
-  background: url(../img/climate3_2.jpeg);
+  background-color: $dark-overlay;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -63,7 +62,7 @@ body {
 
 #home-splash {
   position: relative;
-  // background: url(../img/climate3_2.jpeg);
+  background: url(../img/climate3_2.jpeg);
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -113,15 +112,26 @@ body {
   color: $color1;
 }
 
+// #congress-section {
+//   // position: relative;
+//   // height: 700px;
+//   background: url(../img/police2_2.jpg);
+//   background-position: bottom;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-attachment: fixed;
+//   color: $color3;
+
 #congress-section {
-  // position: relative;
-  // height: 700px;
-  background: url(../img/police2_2.jpg);
-  background-position: bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color: $color3;
+    display: inline-block;
+    width:100%;
+    background: url(../img/police2_2.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: $color3;
+  }
 
 
   .subicon i {
@@ -235,11 +245,17 @@ footer {
 //   }
 // }
 //
+// @media (max-width: 767px) {
+//   #congress-section, #home-splash {
+//     background-attachment: initial;
+//   }
+// }
+
 @media (max-width: 767px) {
-  #congress-section, #home-splash {
-    background-attachment: initial;
-  }
-}
+     #congress-section {
+       background-size: cover;
+     }
+   }
 
 
 /////////////
