@@ -127,12 +127,16 @@ body {
     width:100%;
     background: url(../img/police2_2.jpg);
     background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    // background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll;;
     color: $color3;
   }
-
+  // @media (max-width: 767px) {
+  //      #congress-section {
+  //        background-size: cover;
+  //      }
+  //    }
 
   .subicon i {
     font-size: 24px !important;
@@ -251,11 +255,6 @@ footer {
 //   }
 // }
 
-@media (max-width: 767px) {
-     #congress-section {
-       background-size: cover;
-     }
-   }
 
 
 /////////////
