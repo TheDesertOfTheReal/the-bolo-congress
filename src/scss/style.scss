@@ -63,10 +63,10 @@ body {
 #home-splash {
   position: relative;
   background: url(../img/climate3_2.jpeg);
+  max-width: 100%;
+  background-size: cover !important;
   background-position: bottom;
-  background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   height: 700px;
   color: $color3;
 
@@ -115,8 +115,8 @@ body {
 #congress-section {
   background: url(../img/police2_2.jpg);
   background-position: bottom;
-  background-repeat: repeat-y;
-  background-size: contain !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
   max-width: 100%;
   color: $color3;
 
@@ -159,12 +159,12 @@ footer {
 }
 
 
+
+
+
 /////////////////////////////////////////////
 // MEDIA QUERIES
 /////////////////////////////////////////////
-
-
-
 
 /////////////
 // SIZING
