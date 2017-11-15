@@ -115,31 +115,10 @@ body {
 #congress-section {
   background: url(../img/police2_2.jpg);
   background-position: bottom;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: cover !important;
   max-width: 100%;
-  // background-attachment: fixed;
   color: $color3;
-}
-// stack overflow solution
-// #congress-section {
-//     display: inline-block;
-//     width:100%;
-//     height: 100%;
-//     background: url(../img/police2_2.jpg);
-//     background-position: bottom;
-//     background-size: contain;
-//     background-repeat: no-repeat;
-//     background-attachment: fixed;
-//     color: $color3;
-//   }
-//   @media (max-width: 767px) {
-//        #congress-section {
-//          // background-size: 100%;
-//          // background-attachment: scroll;
-//          // background-repeat: repeat-y;
-//        }
-//      }
 
   .subicon i {
     font-size: 24px !important;
@@ -184,79 +163,6 @@ footer {
 // MEDIA QUERIES
 /////////////////////////////////////////////
 
-////////////////
-// iPhone fix
-////////////////
-// /* ----------- iPhone 4 and 4S ----------- */
-// /* Portrait and Landscape */
-// @media only screen
-//   and (min-device-width: 320px)
-//   and (max-device-width: 480px)
-//   and (-webkit-min-device-pixel-ratio: 2) {
-//
-//   #congress-section, #home-splash {
-//     background-attachment: scroll;
-//   }
-// }
-//
-// // iPhone 5 series
-// /* Portrait and Landscape */
-// @media only screen
-//   and (min-device-width: 320px)
-//   and (max-device-width: 568px)
-//   and (-webkit-min-device-pixel-ratio: 2) {
-//
-//   #congress-section, #home-splash {
-//     background-attachment: scroll;
-//   }
-// }
-//
-// /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-// /* Portrait and Landscape */
-// @media only screen
-//   and (min-device-width: 375px)
-//   and (max-device-width: 667px)
-//   and (-webkit-min-device-pixel-ratio: 2) {
-//
-//   #congress-section, #home-splash {
-//     background-attachment: scroll;
-//   }
-// }
-//
-//
-// /* ----------- iPhone 6+, 7+ and 8+ ----------- */
-// /* Portrait and Landscape */
-// @media only screen
-//   and (min-device-width: 414px)
-//   and (max-device-width: 736px)
-//   and (-webkit-min-device-pixel-ratio: 3) {
-//
-//   #home-splash-div {
-//     height: 100%;
-//     width: 100%;
-//   }
-//   #congress-section, #home-splash {
-//     background-attachment: scroll;
-//   }
-// }
-//
-// /* ----------- iPhone X ----------- */
-// /* Portrait and Landscape */
-// @media only screen
-//   and (min-device-width: 375px)
-//   and (max-device-width: 812px)
-//   and (-webkit-min-device-pixel-ratio: 3) {
-//
-//   #congress-section, #home-splash {
-//     background-attachment: scroll;
-//   }
-// }
-//
-// @media (max-width: 767px) {
-//   #congress-section, #home-splash {
-//     background-attachment: initial;
-//   }
-// }
 
 
 
