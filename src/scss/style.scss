@@ -116,7 +116,8 @@ body {
   background: url(../img/police2_2.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
-  // background-size: cover;
+  background-size: cover !important;
+  max-width: 100%;
   // background-attachment: fixed;
   color: $color3;
 }
