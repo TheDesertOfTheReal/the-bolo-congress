@@ -134,7 +134,7 @@ body {
   }
   @media (max-width: 767px) {
        #congress-section {
-         background-size: contain;
+         background-size: 100% 20%;
          background-attachment: scroll;
          background-repeat: repeat-y;
        }
